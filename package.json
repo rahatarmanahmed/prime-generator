@@ -1,0 +1,17 @@
+{
+  "name": "prime-generator",
+  "description": "An ES6 prime number generator",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "author": "Rahat Ahmed",
+  "repository": "rahatarmanahmed/prime-generator",
+  "scripts": {
+    "test": "ava",
+    "prepublish": "npm run test"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "split": "^1.0.0"
+  }
+}
